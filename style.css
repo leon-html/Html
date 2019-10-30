@@ -1,0 +1,68 @@
+header {
+    margin-bottom: 2cm ;
+}
+
+h2 { 
+    color: red;
+    text-align: right;
+    font-family: fantasy;
+}
+
+h3 {
+    color: red;
+    text-align: right;
+    font-family: fantasy;
+}
+img.hoofdlogo{
+    display: block;
+    position: absolute;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/originals/47/30/90/4730909783c8aa08f3875475d5a18bc1.jpg");
+    font-size: 1.5em;
+}
+nav {
+    display: flex;
+}
+nav ul {
+    list-style:none;
+    padding:none;
+}
+nav ul li a{
+    display: block;
+    width: 10em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:2em 1em 1em;
+    background-image: url(http://flipped.coventry.ac.uk/wp-content/uploads/2016/12/lego-brick-blue.png);
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+
+}
+nav ul li :hover{
+    display: block;
+    border: 5px solid black ;
+    width: 10em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:2em 1em 1em;
+    background-image: url(http://flipped.coventry.ac.uk/wp-content/uploads/2016/12/lego-brick-blue.png);
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+}
+nav ul li:nth-of-type(odd) a{
+    background-image: url(http://flipped.coventry.ac.uk/wp-content/uploads/2016/12/lego-brick-red.png);
+}
+nav ul li p{
+    position: absolute;
+}
+img.hoofdlogo{
+    position: absolute;
+}
+img {
+    max-width:100%;
+}
+
